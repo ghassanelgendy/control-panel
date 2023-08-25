@@ -81,6 +81,7 @@ body {
 }
 
 .container {
+	background-color: var(--c50);
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 	min-height: 100vh;
