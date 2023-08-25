@@ -127,12 +127,34 @@ a:visited {
 }
 
 a:hover {
-    color: var(--c400)
+    color: var(--cOrange)
 }
 
 .side-bar {
-    background-color: tomato;
+    justify-content: center;
+    background-color: var(--c300);
     grid-area: sb;
+    display: grid;
+    grid-template-rows: auto repeat(auto-fill, minmax(8em, 1fr));
+    grid-template-areas: "title"
+        "first" "." "second";
+}
+
+.title {
+    grid-area: title;
+}
+
+.first {
+    grid-area: first;
+
+}
+
+.second {
+    grid-area: second;
+}
+
+li {
+    margin: 1em 0;
 }
 
 .nav-bar {
