@@ -217,7 +217,7 @@ section > h3 {
 	background-color: rgba(0, 116, 97, 0.3);
 }
 .announcements > .card:hover {
-	background-color: rgba(191, 84, 116, 0.8);
+	background-color: rgba(191, 84, 116, 0.4);
 }
 .announcements > .card {
 	background-color: rgba(191, 84, 116, 0.4);
