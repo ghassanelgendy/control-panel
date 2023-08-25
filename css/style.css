@@ -113,8 +113,12 @@ li {
 
 a {
     text-decoration: none;
+<<<<<<< Updated upstream
     color: var(--c700);
     transition: all ease-in-out 150ms;
+=======
+    color: var(--c700) transition: all ease-in-out 150ms;
+>>>>>>> Stashed changes
     -webkit-transition: all ease-in-out 150ms;
     -moz-transition: all ease-in-out 150ms;
     -ms-transition: all ease-in-out 150ms;
@@ -127,7 +131,11 @@ a:visited {
 }
 
 a:hover {
+<<<<<<< Updated upstream
     color: var(--cOrange)
+=======
+    color: var(--c400)
+>>>>>>> Stashed changes
 }
 
 .side-bar {
