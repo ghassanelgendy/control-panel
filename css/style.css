@@ -249,8 +249,26 @@ ul {
 	background-color: var(--c600);
 	color: var(--c50);
 }
+.control-title {
+	user-select: none;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+	-moz-transition: all ease-in-out 200ms;
+	-ms-transition: all ease-in-out 200ms;
+	-o-transition: all ease-in-out 200ms;
+}
+.control-title:hover {
+	cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Bongo_Cat_Pointer.png),
+		pointer !important;
+	color: var(--c600);
+}
+.log-out {
+	color: #94373e !important;
+}
 
-.btn {
+.btn,
+button,
+img:hover {
 	cursor: pointer;
 }
 @media only screen and (max-width: 690px) {
